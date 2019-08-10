@@ -1,0 +1,11 @@
+{
+    "name": "Tab-manager",
+    "version": "1.0",
+    "description": "Helps in managing tabs in chrome browser",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "manifest_version": 2
+  }
